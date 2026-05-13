@@ -1,33 +1,50 @@
-# Mini Quora (Full Stack)
+# Mini Quora (Full Stack App)
 
-## Features
-- User can create, edit, delete posts
-- AI generates post content
-- AI improves writing
+A full-stack web application where users can create, edit, and delete posts like Quora.
+
+## 🚀 Features
+- Create, edit, delete posts
+- AI-generated content using Groq API
+- AI-based content improvement
 - Authorization (only owner can edit/delete)
 
-## Tech Stack
-Frontend:
+## 🛠 Tech Stack
+
+### Frontend:
 - React.js
 
-Backend:
+### Backend:
 - Node.js
 - Express.js
 
-Database:
+### Database:
 - MySQL
 
-AI:
+### AI:
 - Groq API
 
-## How to Run
+---
+
+## ⚙️ Installation
 
 ### Backend
-cd backend
-npm install
-npm start
+cd backend  
+npm install  
+npm start  
 
 ### Frontend
-cd frontend
-npm install
-npm start
+cd frontend  
+npm install  
+npm start  
+
+---
+
+## 📌 Future Improvements
+- User authentication (login/signup)
+- Image upload support
+- Deployment
+
+---
+
+## 👨‍💻 Author
+Anand Kumar Singh
