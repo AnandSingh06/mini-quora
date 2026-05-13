@@ -1,19 +1,33 @@
-# Quora Backend CRUD Application
-
-This is a backend application inspired by Quora, built using Node.js and Express.js.
+# Mini Quora (Full Stack)
 
 ## Features
-- RESTful APIs
-- CRUD operations
-- Express.js routing
-- Backend logic implementation
+- User can create, edit, delete posts
+- AI generates post content
+- AI improves writing
+- Authorization (only owner can edit/delete)
 
 ## Tech Stack
+Frontend:
+- React.js
+
+Backend:
 - Node.js
 - Express.js
-- Git & GitHub
+
+Database:
+- MySQL
+
+AI:
+- Groq API
 
 ## How to Run
-1. Clone the repository
-2. Install dependencies using `npm install`
-3. Run the server using `node app.js` or `npm start`
+
+### Backend
+cd backend
+npm install
+npm start
+
+### Frontend
+cd frontend
+npm install
+npm start
