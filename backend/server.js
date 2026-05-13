@@ -252,6 +252,8 @@ app.post("/improve", async (req, res) => {
 });
 
 // ================= SERVER =================
-app.listen(8081, () => {
-  console.log("Server running on 8081");
+const port = process.env.PORT || 8081;
+
+app.listen(port, () => {
+  console.log(`Server running on ${port}`);
 });
